@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Spring boot eamil teplate with Thymeleaf</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+    </head>
+    <body>
+    <p>Hi Team,</p>
+
+    <p>RAF has identified a potential Order Error, For more information refer following table.</p>
+
+    <table>
+      <tr>
+        <th>Order Id</th>
+        <th>Reason</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td th:utext="${orderId}">Order Id</td>
+        <td th:utext="${msg}">Message</td>
+        <td th:utext="${Status}">Status</td>
+      </tr>
+    </table>
+    <p>Regards,</p>
+    <p>SathishKumar SV</p>
+    <p>RAF Automation</p>
+    </body>
+</html>
+              
