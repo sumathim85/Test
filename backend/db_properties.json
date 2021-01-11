@@ -1,0 +1,9 @@
+{
+	"user": "root",
+    "passwd": "gAAAAABf11KSchzRt4KKSoDwa1-zURt25Osf35A8pjhdtfKuSk9k9iQeR4qI9CYDNkQplnXRuTm6WDK36GzWVZ-LdaQRgklFgw==",
+	"host": ["10.168.160.53"],
+    "secret_key": "rJTz8Ax4cr2gbU5My3ib8tSBeBMSKYz2T_y1-wtjz9o=",
+    "logstash": "10.168.160.76",
+    "elasticIp":["10.168.160.32", "10.168.160.87"],
+	"db": "AF_local"
+}
